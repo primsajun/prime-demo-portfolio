@@ -52,7 +52,7 @@ export default function Portfolio() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center py-4">
-            <div className="text-white font-bold text-xl">Alex Johnson</div>
+            <div className="text-white font-bold text-xl">PRIME</div>
             {/* Update the navigation links in the header */}
             <nav className="hidden md:flex space-x-6">
               {["home", "about", "education", "skills", "contact"].map((section) => (
@@ -75,7 +75,7 @@ export default function Portfolio() {
         {/* Add the About section after the home section and before the education section */}
         <section id="home" className="min-h-[calc(100vh-6rem)] flex flex-col justify-center items-center text-center">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Hi, I'm Alex Johnson</h1>
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">Hi, I'm PRIME</h1>
             <h2 className="text-xl md:text-2xl text-white/80 mb-6">Computer Science Engineering Student</h2>
             <p className="text-white/70 text-lg mb-8 max-w-2xl mx-auto">
               Passionate about software development, artificial intelligence, and creating innovative solutions to
@@ -130,7 +130,7 @@ export default function Portfolio() {
                 <div className="w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-purple-600/20 to-blue-500/20">
                   <img
                     src="/placeholder.svg?height=250&width=250"
-                    alt="Alex Johnson"
+                    alt="PRIME"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
@@ -309,7 +309,7 @@ export default function Portfolio() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-white/70 mb-4 md:mb-0">
-              © {new Date().getFullYear()} Alex Johnson. All rights reserved.
+              © {new Date().getFullYear()} PRIME. All rights reserved.
             </div>
             <div className="flex space-x-4">
               <Button

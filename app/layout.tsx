@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Alex Johnson - Computer Science Portfolio",
-  description: "Portfolio website of Alex Johnson, a Computer Science Engineering Student",
-    generator: 'v0.dev'
+  title: "PRIME - Portfolio",
+  description: "Portfolio website of PRIME, a Computer Science Engineering Student",
+   
 }
 
 export default function RootLayout({
